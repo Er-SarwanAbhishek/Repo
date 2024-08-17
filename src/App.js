@@ -1,5 +1,5 @@
 
-import { BrowserRouter, Routes, Route, HashRouter } from 'react-router-dom';
+import {  HashRouter, Routes, Route, } from 'react-router-dom';
 import './App.css';
 import Banner from './componenets/banner/Banner';
 import Features from './componenets/features/Features';
@@ -12,8 +12,8 @@ function App() {
         <HashRouter>
         <Routes>
           <Route path = "/" element= {<Navbar />} />
-          <Route path = "/banner" element= {<Banner />} />
-          <Route path = "/features" element= {<Features />} />
+          <Route path = "banner" element= {<Banner />} />
+          <Route path = "features" element= {<Features />} />
         </Routes>
         </HashRouter>
        </div>
