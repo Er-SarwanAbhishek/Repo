@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Er-SarwanAbhishek/Repo.git/static/css/main.415441b0.css",
-    "main.js": "/Er-SarwanAbhishek/Repo.git/static/js/main.e52c87aa.js",
-    "static/js/453.1407b060.chunk.js": "/Er-SarwanAbhishek/Repo.git/static/js/453.1407b060.chunk.js",
-    "static/media/WhatsAppImage20240806at110146.jpeg": "/Er-SarwanAbhishek/Repo.git/static/media/0308119001722922558WhatsAppImage20240806at110146.5bcec53da277ec927f4f.jpeg",
-    "index.html": "/Er-SarwanAbhishek/Repo.git/index.html",
-    "main.415441b0.css.map": "/Er-SarwanAbhishek/Repo.git/static/css/main.415441b0.css.map",
-    "main.e52c87aa.js.map": "/Er-SarwanAbhishek/Repo.git/static/js/main.e52c87aa.js.map",
-    "453.1407b060.chunk.js.map": "/Er-SarwanAbhishek/Repo.git/static/js/453.1407b060.chunk.js.map"
+    "main.css": "/Repo/static/css/main.415441b0.css",
+    "main.js": "/Repo/static/js/main.ac7394be.js",
+    "static/js/453.1407b060.chunk.js": "/Repo/static/js/453.1407b060.chunk.js",
+    "static/media/WhatsAppImage20240806at110146.jpeg": "/Repo/static/media/0308119001722922558WhatsAppImage20240806at110146.5bcec53da277ec927f4f.jpeg",
+    "index.html": "/Repo/index.html",
+    "main.415441b0.css.map": "/Repo/static/css/main.415441b0.css.map",
+    "main.ac7394be.js.map": "/Repo/static/js/main.ac7394be.js.map",
+    "453.1407b060.chunk.js.map": "/Repo/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.415441b0.css",
-    "static/js/main.e52c87aa.js"
+    "static/js/main.ac7394be.js"
   ]
 }
