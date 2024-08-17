@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Er-SarwanAbhishek/Repo.git/static/css/main.415441b0.css",
-    "main.js": "/Er-SarwanAbhishek/Repo.git/static/js/main.5f3df395.js",
+    "main.js": "/Er-SarwanAbhishek/Repo.git/static/js/main.e52c87aa.js",
     "static/js/453.1407b060.chunk.js": "/Er-SarwanAbhishek/Repo.git/static/js/453.1407b060.chunk.js",
     "static/media/WhatsAppImage20240806at110146.jpeg": "/Er-SarwanAbhishek/Repo.git/static/media/0308119001722922558WhatsAppImage20240806at110146.5bcec53da277ec927f4f.jpeg",
     "index.html": "/Er-SarwanAbhishek/Repo.git/index.html",
     "main.415441b0.css.map": "/Er-SarwanAbhishek/Repo.git/static/css/main.415441b0.css.map",
-    "main.5f3df395.js.map": "/Er-SarwanAbhishek/Repo.git/static/js/main.5f3df395.js.map",
+    "main.e52c87aa.js.map": "/Er-SarwanAbhishek/Repo.git/static/js/main.e52c87aa.js.map",
     "453.1407b060.chunk.js.map": "/Er-SarwanAbhishek/Repo.git/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.415441b0.css",
-    "static/js/main.5f3df395.js"
+    "static/js/main.e52c87aa.js"
   ]
 }
