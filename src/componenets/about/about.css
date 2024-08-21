@@ -1,0 +1,219 @@
+
+
+/* About Section CSS */
+
+
+.aboutSection{
+	width: 100%;
+	padding: 12px 1% 20px;
+	
+}
+.aboutContents .aboutImage{
+	grid-area: aboutImage;
+	
+}
+
+
+.aboutContents .aboutInfo{
+	grid-area: aboutInfo;
+	
+}
+.aboutContents .aboutSkills{
+	grid-area: aboutSkills;
+}
+.aboutSection .aboutContents{
+	display: grid;
+	grid-template-columns: 2fr 5fr;
+	grid-gap: 70px;
+	grid-template-areas: 'aboutImage aboutInfo'
+	                     'aboutSkills aboutSkills';
+}
+.aboutContents .aboutImage{
+	position: relative;
+	min-width: 300px;
+	height: 380px;
+}
+.aboutContents .aboutImage img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+	position: relative;
+	z-index: 2;
+}
+.aboutContents .aboutImage::after{
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 100%;
+	outline: 3px solid white;
+	top: 15px;
+	left: 15px;
+	z-index: 1;
+}
+.aboutContents .aboutInfo h1{
+	position: relative;
+	display: inline-block;
+	font-size: 30px;
+	color: white;
+	text-transform: uppercase;
+	margin-bottom: 5px;
+}
+.aboutContents .aboutInfo h1::before{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 1px;
+	top: 110%;
+	left: 0;
+	background-color: white;
+}
+.aboutContents .aboutInfo h1::after{
+	content: '';
+	position: absolute;
+	width: 40%;
+	height: 3px;
+	top: calc(110% - 1px);
+	left: 0;
+	background-color: red;
+}
+.aboutContents .aboutInfo h2{
+	font-size: 20px;
+	font-weight: 600;
+	color: var(--primary-clr);
+	padding: 14px 0px 15px;
+	text-transform: capitalize;
+	letter-spacing: 1px;
+}
+.aboutContents .aboutInfo p{
+	color: white;
+	font-size: 15px;
+	line-height: 1.2;
+	text-align: justify;
+	padding-bottom: 8px;
+}
+.aboutInfo .aboutPersonalInfo{
+    display: flex;
+    flex-direction: column;
+	grid-gap: 10px 20px;
+	margin-top: 14px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #333;
+}
+.aboutInfo .aboutPersonalInfo div{
+	 display: grid;
+	grid-template-columns: 1.5fr 9fr; 
+}
+.aboutPersonalInfo div span{
+	color: white;
+	letter-spacing: 1px;
+}
+
+.about_btn{
+    margin-top: 13px;
+}
+
+.aboutContents .aboutInfo button:hover{
+	color: gray;
+	border-color: green;
+}
+.aboutContents .aboutSkills{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 10px 80px;
+}
+.aboutSkills .skill .subject{
+	font-size: 20px;
+	font-weight: thin;
+	color: white;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.aboutSkills .skill .progress_bar{
+	width: 100%;
+	height: 16px;
+	background-color:white;
+	padding: 4px 6px;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #222;
+	border-radius: 15px;
+}
+.aboutSkills .skill .progress_bar .progress_line{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	box-shadow: -1px -1px 2px #222,
+	             1px 1px 2px #111;
+	border-radius: 15px;
+}
+.aboutSkills .skill .progress_bar .progress_line::after{
+	position: absolute;
+	content: attr(value);
+	top: -35px;
+	right: 0;
+	transform: translateX(-50%);
+	color: white;
+	font-size: var(--text-fontSize);
+}
+
+
+@media(max-width: 1068px){
+	.aboutSection .aboutContents{
+		grid-template-areas: 'aboutImage aboutSkills'
+		                     'aboutInfo aboutInfo';
+
+	}
+	.aboutContents .aboutSkills{
+		grid-template-columns: 1fr;
+		grid-gap: 20px;
+	}
+	.aboutSection{
+		padding: 10px 3% 10px;
+	}
+	
+}
+
+@media(max-width: 868px){
+	.aboutSection .aboutContents{
+		grid-template-areas: 'aboutImage aboutImage'
+		                     'aboutInfo aboutInfo'
+		        
+							 'aboutSkills aboutSkills';
+
+	
+	}
+	.aboutContents .aboutImage{
+	
+	
+		width: 80vmax;
+		height: 80vmax;
+	}
+	
+}
+
+
+@media(max-width: 668px){
+	.aboutInfo .aboutPersonalInfo{
+		grid-template-columns: 1fr;
+	}
+}
+
+@media(max-width: 350px){
+	.aboutContents .aboutImage{
+		min-width: 100%;
+		height: auto;
+	}
+
+}
+
+
+
+/* media query */
+@media(max-width: 768px){
+	
+	.skills{
+		padding: 10px 3% 10px;
+	}
+}
