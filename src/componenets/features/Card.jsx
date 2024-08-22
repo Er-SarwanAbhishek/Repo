@@ -30,6 +30,7 @@ const Card = ({item:{title,des,icon}}) => {
           </div>
         </div>
       </div>
+
     </div>
   );
 }

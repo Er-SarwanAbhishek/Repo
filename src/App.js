@@ -3,8 +3,10 @@
 import './App.css';
 import About from './componenets/about/About';
 import Banner from './componenets/banner/Banner';
+import Contact from './componenets/contact/Contact';
 import Features from './componenets/features/Features';
 import Navbar from './componenets/navbar/Navbar';
+import Projects from './componenets/projects/Projects';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
        <Banner />
        <About />
        <Features />
+       <Projects />
+       <Contact />
        </div>
     </div>
   );
