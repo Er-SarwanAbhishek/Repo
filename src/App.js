@@ -7,6 +7,7 @@ import Contact from './componenets/contact/Contact';
 import Features from './componenets/features/Features';
 import Navbar from './componenets/navbar/Navbar';
 import Projects from './componenets/projects/Projects';
+import Resume from './componenets/resume/Resume';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
        <Features />
        <Projects />
        <Contact />
+       <Resume />
        </div>
     </div>
   );
